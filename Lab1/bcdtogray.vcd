@@ -1,0 +1,46 @@
+$date
+	Thu Oct 29 14:21:45 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_bcdtogray $end
+$var wire 4 ! b [3:0] $end
+$var reg 4 " a [3:0] $end
+$scope module m1 $end
+$var wire 4 # a [3:0] $end
+$var wire 4 $ b [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+b1 #
+b1 "
+b1 !
+$end
+#1
+b11 !
+b11 $
+b10 "
+b10 #
+#2
+b10 !
+b10 $
+b11 "
+b11 #
+#3
+b110 !
+b110 $
+b100 "
+b100 #
+#4
+b111 !
+b111 $
+b101 "
+b101 #
+#5
